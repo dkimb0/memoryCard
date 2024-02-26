@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box > * {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
